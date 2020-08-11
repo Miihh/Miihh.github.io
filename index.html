@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> <!--utf-8 e "encoding"-ul folosit sa scrie textul de pe pagina-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN(Content Delivery Network). This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+    <body>
+      <div class="container d-flex align-items-center h-100"> <!--align-tems-center, h-100(height 100) ar putea fi facute si in css. aici nu e css bagat in html, ci sunt comenzi din bootstrap in html. aici am folosit h-100 pentru a marii containerul a.i. continutul lui sa cada pe mijlocul paginii. daca containerul nu are aceleasi dimensiuni ca si html, continutul setat va fi DOAR pe mijlocul containerului, care nu va coincide cu mijlocul html, pentru ca au dimensiuni diferite-->
+        <div class="row">
+          <header class="text-center col-12">
+            <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+          </header>
+          <div class="buffer col-12"></div>
+          <section class="text-center col-12"> 
+            <hr> <!--horizontal line-->
+           <a href="https://mailchi.mp/8dc5cbe27ab2/sup"> <button class="btn btn-primary btn-xl">Find out more</button></a> <!--btn| btn-primary| sunt clasele de la bootstrap. btn-xl e clasa setata de noi. practic, sunt 3 clase?! putem folosii btn-xl in css pt a-l edita-->
+        </section>
+        </div>   
+      </div>
+    </body>
+</html>
